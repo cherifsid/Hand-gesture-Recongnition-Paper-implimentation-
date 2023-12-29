@@ -10,11 +10,11 @@ This project focuses on developing an algorithm for recognizing hand gestures us
 ## Scientific Program
 ### Entry and Preprocessing (Segmentation)
 - RGB image capture of hand gestures.
+- ![RGB image capture of hand gestures.](/results/rgb.png)
 - Conversion to YCbCr color space for better segmentation.
 - ![Image 1: RGB to YCbCr Conversion](/results/ycbr.png)
 - Black and white conversion and median filtering.
 - ![Image 2: B&W Conversion](/results/median.png)
-- ...
 
 ### Recognition Algorithm
 - The proposed algorithm starts by identifying the middle finger, then draws lines (slopes) from from a reference point near the middle finger.
