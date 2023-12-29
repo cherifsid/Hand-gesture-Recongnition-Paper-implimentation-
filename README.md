@@ -21,13 +21,15 @@ This project focuses on developing an algorithm for recognizing hand gestures us
 - It defines a "flip count" as the number of alternations between black and white pixels along a scanned path. and white pixels along a scanned trajectory.
 - The algorithm counts the number of reversals along this trajectory, which corresponds to the numerical value of the hand gesture
 - ![Image 3: ](/results/pn.png)
-- ![Image 3: ](/results/lines.png)
 
 ### Calculation Logic
 - Explain how the gesture is calculated.
 - For each number from 1 to 5, the document describes specific criteria based on the number of flips (pixel change from white to black and vice versa).
+- ![Image 3: ](/results/lines.png)
 - For Number 0, solidity is calculated if it is >0.8, so the predicted gesture is 0 (according to experiments experiments conducted by the authors of the work).
 - ![Image 4: Calculation Logic](/results/surface.png)
+- ![Image 4: Calculation Logic](/results/conv.png)
+
 
 
 ## Experimentations
